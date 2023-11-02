@@ -15,12 +15,15 @@
         </p>
       </div>
       <ul class="flex list-none gap-2 p-0">
-        <li><i class="i-fa6-solid-chevron-left block h-4 w-4" /></li>
-        <li><i class="i-fa6-solid-chevron-right block h-4 w-4" /></li>
-        <li><i class="i-fa6-solid-hand-holding-medical" /></li>
+        <li><i class="i-fa6-solid-person-circle-check block w-8 h-8" /></li>
+        <li><i class="i-fa6-solid-person-circle-exclamation block w-8 h-8" /></li>
+        <li><i class="i-fa6-solid-person-circle-minus block w-8 h-8" /></li>
+        <li><i class="i-fa6-solid-person-circle-plus block w-8 h-8" /></li>
+        <li><i class="i-fa6-solid-person-circle-question block w-8 h-8" /></li>
+        <li><i class="i-fa6-solid-person-circle-xmark block w-8 h-8" /></li>
       </ul>
       <footer>
-        <ul class="list-none p-0 m-0 gap-2 flex">
+        <ul class="list-none p-0 m-0 gap-1 flex">
           <li>
             <button class="font-200 appearance-none border-none font-size-3 rounded-1 px-4 py-2 bg-yagro-lightGreen text-white">
               Button
