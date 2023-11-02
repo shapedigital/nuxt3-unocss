@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   modules: ['@unocss/nuxt', '@pinia/nuxt'],
   devtools: { enabled: true },
-  css: ['@unocss/reset/eric-meyer.css'],
+  css: ['@unocss/reset/normalize.css'],
   typescript: {
     typeCheck: true,
   },
