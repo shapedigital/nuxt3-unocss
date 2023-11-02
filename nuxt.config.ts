@@ -4,6 +4,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['@unocss/reset/eric-meyer.css'],
   typescript: {
-    typeCheck: true
-  }
-});
+    typeCheck: true,
+  },
+})
