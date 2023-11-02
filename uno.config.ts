@@ -1,4 +1,5 @@
-// uno.config.ts
+// https://unocss.dev/guide/config-file
+
 import { defineConfig, presetIcons, presetUno, presetWebFonts } from 'unocss'
 
 export default defineConfig({
@@ -9,8 +10,13 @@ export default defineConfig({
       {
         provider: 'google',
         fonts: {
-          sans: 'Roboto',
-          mono: ['Fira Code', 'Fira Mono:400,700'],
+          montserrat: [
+            {
+              name: 'Montserrat',
+              weights: ['400', '700'],
+              italic: true,
+            },
+          ],
         },
       },
     ),
@@ -18,22 +24,29 @@ export default defineConfig({
   /* Used for global CSS */
   preflights: [
     {
-      getCSS: () => `
+      getCSS: ({ theme }) => `
         *, *:before, *:after {
           -webkit-font-smoothing: antialiased;
+        }
+        html {
+          font-family: ${theme.fonts.primary};
+          color: ${theme.colors.typography.text};
         }
       `,
     },
   ],
-  shortcuts: {
-    button: 'appearance-none border-none py-2 px-4 rounded bg-yagro-darkGreen text-white font-500',
-  },
   theme: {
     /*
       Useful tool for generating tints and shades:
       https://www.tailwindshades.com/
     */
+    fonts: {
+      primary: 'Montserrat, san-serif',
+    },
     colors: {
+      typography: {
+        text: '#333333',
+      },
       /* Branding */
       yagro: {
         darkGreen: {
