@@ -3,5 +3,15 @@
 {
   "name": "Default Linux Universal",
   "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
-  "postCreateCommand": "npm run dev"
+  "postCreateCommand": "npm run dev",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "antfu.unocss",
+        "Vue.volar",
+        "simonhe.to-unocss",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  }
 }

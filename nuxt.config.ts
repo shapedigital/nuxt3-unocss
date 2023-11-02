@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       bodyAttrs: {
-        class: 'bg-gray-100',
+        class: 'p-0 m-0',
       },
     },
   },
