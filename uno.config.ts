@@ -13,7 +13,7 @@ export default defineConfig({
           montserrat: [
             {
               name: 'Montserrat',
-              weights: ['400', '700'],
+              weights: ['200', '400', '700'],
               italic: true,
             },
           ],
@@ -31,6 +31,7 @@ export default defineConfig({
         html {
           font-family: ${theme.fonts.primary};
           color: ${theme.colors.typography.text};
+          font-weight: 400;
         }
       `,
     },
