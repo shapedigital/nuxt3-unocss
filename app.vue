@@ -1,3 +1,7 @@
+<script setup lang="ts">
+
+</script>
+
 <template>
   <section class="m-8">
     <div class="p-4">
@@ -15,3 +19,4 @@
   </div>
   </section>
 </template>
+

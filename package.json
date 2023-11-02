@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^1.0.0",
-    "@nuxtjs/eslint-module": "4.1.0",
+    "@unocss/eslint-config": "^0.57.1",
     "@unocss/nuxt": "latest",
     "@unocss/reset": "latest",
     "eslint": "8.52.0",
