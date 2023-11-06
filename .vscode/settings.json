@@ -1,4 +1,14 @@
 {
+  "files.exclude": {
+    "**/.nuxt": true,
+    "**/.devcontainer": true,
+    "**/package-lock.json": true,
+    "**/eslint.config.js": true,
+    "**/tsconfig.json": true,
+    "**/uno.config.ts": false,
+    "**/node_modules": true,
+    "**/.gitignore": true
+  },
   // Enable the ESlint flat config support
   "eslint.experimental.useFlatConfig": true,
 
