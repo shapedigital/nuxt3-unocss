@@ -1,6 +1,5 @@
 {
   "recommendations": [
-    "simonhe.to-unocss",
     "vue.volar",
     "antfu.unocss",
     "dbaeumer.vscode-eslint"
