@@ -11,17 +11,17 @@
   },
   "dependencies": {
     "@pinia/nuxt": "0.5.1",
-    "pinia": "^2.1.7"
+    "pinia": "2.1.7"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^1.0.0",
-    "@iconify-json/fa6-solid": "^1.1.15",
-    "@nuxt/image": "^1.0.0",
-    "@unocss/eslint-config": "^0.57.1",
-    "@unocss/nuxt": "latest",
-    "@unocss/reset": "latest",
+    "@antfu/eslint-config": "1.0.0",
+    "@iconify-json/fa6-solid": "1.1.15",
+    "@nuxt/image": "1.0.0",
+    "@unocss/eslint-config": "0.57.2",
+    "@unocss/nuxt": "0.57.2",
+    "@unocss/reset": "0.57.2",
     "eslint": "8.52.0",
-    "nuxt": "^3.8.0",
+    "nuxt": "3.8.0",
     "typescript": "5.2.2",
     "vue-tsc": "1.8.22"
   }
