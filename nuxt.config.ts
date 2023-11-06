@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@unocss/nuxt', '@pinia/nuxt'],
+  modules: ['@unocss/nuxt', '@pinia/nuxt', "@nuxt/image"],
   devtools: { enabled: true },
   css: ['@unocss/reset/normalize.css'],
   /* https://nuxt.com/docs/guide/concepts/typescript#type-checking */

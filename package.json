@@ -16,6 +16,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^1.0.0",
     "@iconify-json/fa6-solid": "^1.1.15",
+    "@nuxt/image": "^1.0.0",
     "@unocss/eslint-config": "^0.57.1",
     "@unocss/nuxt": "latest",
     "@unocss/reset": "latest",
